@@ -3,16 +3,19 @@ Analiza Statystyczna Danych Medycznych - R
 
 
 **Wymagane pakiety, aby uruchomić program**
+
 → car, Hmics, dunn.test, FSA, ggpubr, ggplot2, dplyr
 
 
 Dane do programu powinny znajdować się w formacie csv, a pierwsza kolumna powinna zawierać nazwę grupy, do której należą wiersze. Realizowany program jest stworzony do analizy 2 lub więcej grup badawczych.
 
 **Tryb wsadowy**
+
 “ścieżka do R” CMD BATCH  - -vanilla “--args ścieżka do pliku z danymi.csv” “ścieżka do programu”
 
 
 **Opis i działanie programu wraz z przykładami**
+
 Program generuje raport w formacie txt o nazwie “projekt_raport.txt”
 Program po załadowaniu danych, przechodzi do podziału na grupy oraz uzupełnieniu brakujących danych średnią dla określonych kolumn w określonych grupach. Zbierane to są informacje o brakach i umieszczane w raporcie:
 
@@ -39,6 +42,7 @@ Jeśli dane spełniają założenie o zgodności z rozkładem normalnym (p-value
 
 
 **Ocena zależności pomiędzy parametrami**
+
 Ocena istnienia i siły korelacji pomiędzy wybranymi parametrami, a także określenie kształtu i kierunku tej zależności stanowią ważną część analizy statystycznej. Do przeprowadzenia testu korelacji służy funkcja cor.test(), użyto metody spearman (współczynnik korelacji rangowej Spearmana jest nieparametrycznym odpowiednikiem współczynnika korelacji Pearsona)
 Siła korelacji została zinterpretowana zgodnie z poniższymi przedziałami:
 - −1 < r ≤ −0.7 bardzo silna korelacja ujemna
