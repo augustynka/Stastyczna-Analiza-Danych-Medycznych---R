@@ -21,7 +21,7 @@ Program po załadowaniu danych, przechodzi do podziału na grupy oraz uzupełnie
 
 
 Usuwanie brakujących danych nie jest dobrym rozwiązanie,  dlatego dane uzupełnione są  dopasowując je do modelu regresji na zbiorze kompletnych danych (dzięki impute).
-Następnie dla każdej kolumny numerycznej program wypisuje wartości odstające oraz generuje wykresy do pliku pdf (WARTOSCI_ODSTAJACE.pdf) dołączonym do sprawozdania. Dzięki temu zastosowaniu można łatwo odczytać ile takich wartości występuje, ocenić różnice.
+Następnie dla każdej kolumny numerycznej program wypisuje wartości odstające oraz generuje wykresy do pliku pdf. Dzięki temu zastosowaniu można łatwo odczytać ile takich wartości występuje, ocenić różnice.
 
 
 
