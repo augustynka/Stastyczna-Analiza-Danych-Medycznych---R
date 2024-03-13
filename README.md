@@ -31,13 +31,23 @@ Spełnienie założenia o zgodności z rozkładem normalnym jest często wymogie
 
 W przypadku niektórych testów wymagana jest zarówno zgodność z rozkładem normalnym jak i wymagane jest spełnienie założenia o homogeniczności (jednorodności) wariancji. Dlatego zastosowano test Levene’a. Jeśli wartość p-value > 0.05 oznacza to, że dane są zgodne z założeniem o jednorodności wariancji.
 Następnie dochodzi do rozróżnienia dalszego przebiegu ze względu na przeprowadzane testy dla 2 lub więcej grup niezależnych.
-Testy statystyczne dla 2 grup niezależnych
+
+
+**Testy statystyczne dla 2 grup niezależnych**
+
 Jeśli dane nie spełniają założenia o zgodności z rozkładem normalnym (p-value < 0.05) do analizy porównawczej wykonuje się testy nieparametryczne. Wykonano test Wilcoxona. Jeśli wartość p-value jest mniejsza niż poziom istotności 0.05 możemy stwierdzić, że istnieją znaczące różnice między grupami. 
+
 Jeśli dane spełniają założenie o zgodności z rozkładem normalnym (p-value > 0.05) oraz spełniają założenie o jednorodności wariancji (p-value > 0.05) zastosowano test t-Studenta.
-Jeśli dane spełniają założenie o zgodności z rozkładem normalnym (p-value> 0.05), ale nie spełniają założenia o jednorodności wariancji (p-value < 0.05) zastosowano test Welcha. 
-Testy statystyczne dla >2 grup niezależnych
+
+Jeśli dane spełniają założenie o zgodności z rozkładem normalnym (p-value> 0.05), ale nie spełniają założenia o jednorodności wariancji (p-value < 0.05) zastosowano test Welcha.
+
+
+**Testy statystyczne dla >2 grup niezależnych**
+
 Jeśli dane nie spełniają założenia o zgodności z rozkładem normalnym (p-value < 0.05) do analizy porównawczej wykorzystuje się testy nieparametryczne. Wykonano test Kruskala-Wallisa (tak samo w przypadku, gdy dane są zgodne z rozkładem normalnym, ale nie spełniają założenia o jednorodności wariancji)
+
 Gdy wartość p-value jest mniejsza niż poziom istotności 0.05 możemy stwierdzić, że istnieją znaczące różnice między grupami. Jeśli występują istotne statystycznie różnice pomiędzy grupami, należy dokładnie określić pomiędzy którymi grupami występują te różnice. Dlatego zastosowano Dunn test.
+
 Jeśli dane spełniają założenie o zgodności z rozkładem normalnym (p-value > 0.05) oraz spełniają założenie o jednorodności wariancji (p-value > 0.05) zastosowano  parametryczny test ANOVA. Gdy wartość p-value jest mniejsza niż poziom istotności 0.05 możemy stwierdzić, że istnieją znaczące różnice między grupami. Dlatego zastosowano test Tukeya.
 
 
