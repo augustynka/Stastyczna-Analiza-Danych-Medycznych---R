@@ -35,7 +35,11 @@ Następnie dochodzi do rozróżnienia dalszego przebiegu ze względu na przeprow
 
 **Testy statystyczne dla 2 grup niezależnych**
 
-Jeśli dane nie spełniają założenia o zgodności z rozkładem normalnym (p-value < 0.05) do analizy porównawczej wykonuje się testy nieparametryczne. Wykonano test Wilcoxona. Jeśli wartość p-value jest mniejsza niż poziom istotności 0.05 możemy stwierdzić, że istnieją znaczące różnice między grupami. 
+Jeśli dane nie spełniają założenia o zgodności z rozkładem normalnym (p-value < 0.05) do analizy porównawczej wykonuje się testy nieparametryczne. 
+
+Wykonano test Wilcoxona. 
+
+Jeśli wartość p-value jest mniejsza niż poziom istotności 0.05 możemy stwierdzić, że istnieją znaczące różnice między grupami. 
 
 Jeśli dane spełniają założenie o zgodności z rozkładem normalnym (p-value > 0.05) oraz spełniają założenie o jednorodności wariancji (p-value > 0.05) zastosowano test t-Studenta.
 
